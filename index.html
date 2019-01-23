@@ -7,85 +7,35 @@
         <title>Document</title>
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="style.css" />
-        <!-- BOOTSTRAP CSS -->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-            crossorigin="anonymous"
-        />
     </head>
     <body>
-        <div class="container">
+        <div class="info">
             <div class="player-1 m-5">
-                <p class="text-dark">Player 1</p>
-                <div class="progress">
-                    <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        aria-valuenow="55"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 100%"
-                    ></div>
+                <div class="level-and-name">
+                    <div class="level">37</div>
+                    <div class="name">Player 1</div>
                 </div>
-                <div>
+                <div class="health">
+                    <div id="progress">
+                        <div
+                            id="bar"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        ></div>
+                    </div>
+                </div>
+                <!-- <div>
                     <button class="btn btn-danger m-2">Attack</button>
-                    <button class="btn btn-primary m-2">Stimpak</button>
-                </div>
-            </div>
-            <div class="player-2 m-5">
-                <p class="text-dark">Player 2</p>
-                <div class="progress">
-                    <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        aria-valuenow="55"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 100%"
-                    ></div>
-                </div>
-                <div>
-                    <button class="btn btn-danger m-2">Attack</button>
-                    <button class="btn btn-primary m-2">Stimpak</button>
-                </div>
-            </div>
-            <div class="player-3 m-5">
-                <p class="text-dark">Player 3</p>
-                <div class="progress">
-                    <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        aria-valuenow="55"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 100%"
-                    ></div>
-                </div>
-                <div>
-                    <button class="btn btn-danger m-2">Attack</button>
-                    <button class="btn btn-primary m-2">Stimpak</button>
-                </div>
+                    <button
+                        id="heal"
+                        class="btn btn-primary m-2"
+                    >
+                        Stimpak
+                    </button>
+                </div> -->
             </div>
         </div>
         <!-- CUSTOM JS -->
         <script src="main.js"></script>
-        <!-- BOOTSTRAP JS -->
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"
-        ></script>
     </body>
 </html>
