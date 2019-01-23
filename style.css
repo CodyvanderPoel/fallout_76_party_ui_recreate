@@ -12,3 +12,15 @@
 .info {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.level-and-name {
+    display: flex;
+}
+
+.name {
+    padding: .3rem;
+}
+
+.level {
+    padding: .3rem;
+}
